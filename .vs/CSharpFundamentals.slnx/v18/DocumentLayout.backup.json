@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\DOT NET\\BS23\\CSharpFundamentals\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D6E93A5-72AE-4A4A-A363-DDDA297C2A7E}|Feature-DataType\\Feature-DataType.csproj|e:\\dot net\\bs23\\csharpfundamentals\\feature-datatype\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D6E93A5-72AE-4A4A-A363-DDDA297C2A7E}|Feature-DataType\\Feature-DataType.csproj|solutionrelative:feature-datatype\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D6E93A5-72AE-4A4A-A363-DDDA297C2A7E}|Feature-DataType\\Feature-DataType.csproj|e:\\dot net\\bs23\\csharpfundamentals\\feature-datatype\\learningaboutdatatypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D6E93A5-72AE-4A4A-A363-DDDA297C2A7E}|Feature-DataType\\Feature-DataType.csproj|solutionrelative:feature-datatype\\learningaboutdatatypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LearningAboutDataTypes.cs",
+              "DocumentMoniker": "E:\\DOT NET\\BS23\\CSharpFundamentals\\Feature-DataType\\LearningAboutDataTypes.cs",
+              "RelativeDocumentMoniker": "Feature-DataType\\LearningAboutDataTypes.cs",
+              "ToolTip": "E:\\DOT NET\\BS23\\CSharpFundamentals\\Feature-DataType\\LearningAboutDataTypes.cs",
+              "RelativeToolTip": "Feature-DataType\\LearningAboutDataTypes.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwCMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T08:57:31.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\DOT NET\\BS23\\CSharpFundamentals\\Feature-DataType\\Program.cs",
+              "RelativeDocumentMoniker": "Feature-DataType\\Program.cs",
+              "ToolTip": "E:\\DOT NET\\BS23\\CSharpFundamentals\\Feature-DataType\\Program.cs",
+              "RelativeToolTip": "Feature-DataType\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T08:56:41.867Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
