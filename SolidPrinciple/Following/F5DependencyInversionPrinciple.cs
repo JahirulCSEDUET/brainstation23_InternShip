@@ -9,12 +9,15 @@ namespace SolidPrinciple.Following
     {
         public void LogMessage(string message)
         {
-            Console.WriteLine($"Writing to local file{message}");
+            Console.WriteLine($"Writing to local file {message}");
         }
     }
     public class CloudLogger : ILogger
     {
-        public void LogMessage(string message) => Console.WriteLine($"[CLOUD/AWS] {message}");
+        public void LogMessage(string message) 
+        {
+            Console.WriteLine($"Writing to cloud {message}");
+        } 
     }
     public class OrderService
     {
