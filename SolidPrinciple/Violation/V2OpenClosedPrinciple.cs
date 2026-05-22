@@ -1,33 +1,24 @@
 ﻿
 namespace SolidPrinciple.Violation
 {
-    public class Rectangle
+    public interface IShape
+    {
+        double CalculateArea();
+    }
+
+    public class Rectangle:IShape
     {
         public double Width { get; set; }
         public double Height { get; set; }
+        public double CalculateArea()=>(Width * Height);
     }
-    public class Circle
+    public class Circle:IShape
     {
         public double Radius { get; set; }
+        public double CalculateArea() => Math.PI * Radius *Radius;
     }
     public class AreaCalculator
     {
-        public double TotalArea(object[] shapes)
-        {
-            double totalArea = 0.0;
-            foreach (var shape in shapes)
-            {
-                if (shape is Rectangle r)
-                {
-                    totalArea += r.Width * r.Height;
-                }
-                else if (shape is Circle c)
-                {
-                    totalArea += Math.PI * c.Radius * c.Radius;
-                }
-                //When a new shape Triangle added tomorrow than this method must be modified.
-            }
-            return totalArea;
-        }
+        public double CalculateArea(IShape shape) => shape.CalculateArea();
     }
 }
