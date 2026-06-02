@@ -1,0 +1,36 @@
+﻿@using PracticeProject.UnderstandingFluentValidation
+@model Student
+
+<h2>Add New Student</h2>
+
+<!-- The form automatically posts back to the Create action -->
+<form asp-controller="Home" asp-action="Create" method="post">
+    
+    <div class="form-group" style="margin-bottom: 15px;">
+        <label asp-for="Id">Student ID</label>
+        <input asp-for="Id" type="number" placeholder="e.g., 1045" />
+        <!-- This span displays the FluentValidation error message for StudentId -->
+        <span asp-validation-for="Id" style="color:red; display:block;"></span>
+    </div>
+
+    <div class="form-group" style="margin-bottom: 15px;">
+        <label asp-for="Name">Full Name</label>
+        <input asp-for="Name" type="text" placeholder="John Doe" />
+        <span asp-validation-for="Name" style="color:red; display:block;"></span>
+    </div>
+
+    <div class="form-group" style="margin-bottom: 15px;">
+        <label asp-for="Email">Email Address</label>
+        <input asp-for="Email" type="email" placeholder="john@example.com" />
+        <span asp-validation-for="Email" style="color:red; display:block;"></span>
+    </div>
+
+    <div class="form-group" style="margin-bottom: 15px;">
+        <label asp-for="Phone">Phone Number</label>
+        <input asp-for="Phone" type="tel" placeholder="123-456-7890" />
+        <span asp-validation-for="Phone" style="color:red; display:block;">  </span>
+    </div>
+
+    <button type="submit" style="padding: 10px 20px;">Submit Student</button>
+    
+</form>
