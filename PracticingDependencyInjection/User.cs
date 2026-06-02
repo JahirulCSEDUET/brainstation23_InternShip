@@ -6,20 +6,11 @@ namespace PracticingDependencyInjection
 {
     public class User
     {
-        private INotificationService _notificationService;
-
-        public User(string username, INotificationService notificationService)
+        
+        public User(string username)
         {
             Username = username;
-            _notificationService = notificationService;
         }
-
-        public string Username { get; private set; }
-
-        public void ChangeUsername(string newUsername)
-        {
-            Username = newUsername;
-            _notificationService.NotifyUsernameChanged(this);
-        }
+        public string Username { get;set; }
     }
 }
