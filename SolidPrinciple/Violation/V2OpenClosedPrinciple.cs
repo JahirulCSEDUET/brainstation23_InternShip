@@ -1,0 +1,5 @@
+﻿
+namespace SolidPrinciple.Violation
+{
+    
+}

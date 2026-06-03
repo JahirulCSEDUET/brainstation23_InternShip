@@ -1,0 +1,4 @@
+﻿
+namespace SolidPrinciple.Following
+{
+}
