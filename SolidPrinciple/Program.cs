@@ -1,4 +1,5 @@
 ﻿using SolidPrinciple.Following;
+﻿using SolidPrinciple.Violation;
 
 var alerts = new List<INotification>
 {
@@ -23,3 +24,12 @@ foreach(var alert in alerts)
 {
     alert.send();
 }
+
+
+
+//for Open Close Principle Following 
+var calculator = new AreaCalculator();
+var rectangle = new Rectangle();
+var circle  = new Circle();
+Console.WriteLine("Area of Circle: " + calculator.CalculateArea(circle));
+Console.WriteLine("Area of Rectangle: " + calculator.CalculateArea(rectangle));
